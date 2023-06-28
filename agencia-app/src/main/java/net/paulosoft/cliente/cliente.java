@@ -5,6 +5,6 @@ import jakarta.persistence.Entity;
 
 
 @Entity
-public class cliente extends PanacheEntity{
+public class Cliente extends PanacheEntity{
   public String nome;
 }

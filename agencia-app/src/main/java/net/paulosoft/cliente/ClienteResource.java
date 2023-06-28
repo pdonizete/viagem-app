@@ -11,7 +11,7 @@ import jakarta.ws.rs.core.MediaType;
 public class ClienteResource {
   @GET
   @Produces(MediaType.APPLICATION_JSON)
-  public List <cliente> get () {
-    return cliente.listAll();
+  public List <Cliente> get () {
+    return Cliente.listAll();
   }
 }
